@@ -11,3 +11,11 @@ Assets/**/*.png
 /Releases
 /GameData/GroundConstruction/Plugins/GroundConstruction.dll
 *.pdb
+.vs/GroundConstruction/xs/UserPrefs.xml
+.vs/GroundConstruction/xs/sqlite3/storage.ide
+.vs/GroundConstruction/xs/sqlite3/db.lock
+.vs/GroundConstruction/xs/project-cache/GroundConstruction-Release.json
+.vs/GroundConstruction/xs/project-cache/GroundConstruction-Debug.json
+GameData/.DS_Store
+.DS_Store
+GameData/GroundConstruction/.DS_Store

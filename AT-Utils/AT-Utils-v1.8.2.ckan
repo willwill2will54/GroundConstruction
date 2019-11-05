@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "AT-Utils",
+    "name": "AT Utils",
+    "abstract": "A common library for a set of plugins made by Allista.",
+    "author": [
+        "allista"
+    ],
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/allista/AT_Utils",
+        "repository": "https://github.com/allista/AT_Utils",
+        "bugtracker": "https://github.com/allista/AT_Utils/issues"
+    },
+    "version": "v1.8.2",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.8.9",
+    "install": [
+        {
+            "file": "GameData/000_AT_Utils",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/ConfigurableContainers/TankTypes.cfg",
+            "install_to": "GameData/ConfigurableContainers"
+        },
+        {
+            "file": "GameData/ConfigurableContainers/TankConfigs.cfg",
+            "install_to": "GameData/ConfigurableContainers"
+        },
+        {
+            "file": "GameData/ConfigurableContainers/Cryogenics.cfg",
+            "install_to": "GameData/ConfigurableContainers"
+        }
+    ],
+    "download": "https://github.com/willwill2will54/AT_Utils/releases/download/v1.8.2/AT_Utils-1.8.2.0.zip",
+    "download_size": 242384,
+    "download_hash": {
+        "sha1": "ED49B899936C3AAA4BE185941694364B07F1B5F1",
+        "sha256": "16EA66E152AA3518BF25F605CC6C996F07A07E812EBF6522140316D7CA63168B"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

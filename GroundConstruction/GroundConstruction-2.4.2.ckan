@@ -1,0 +1,69 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "GroundConstruction",
+    "name": "Global Construction",
+    "abstract": "Build vessels directly on other planets and in orbit using light-weight kits of high-tech components, with energy and raw materials produced on-site from Ore.",
+    "author": [
+        "allista"
+    ],
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/154167-122-ground-construction",
+        "repository": "https://github.com/allista/GroundConstruction",
+        "bugtracker": "https://github.com/allista/GroundConstruction/issues"
+    },
+    "version": "2.4.2",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.8.9",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "GroundConstruction-Core"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ConfigurableContainers"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "ThrottleControlledAvionics"
+        },
+        {
+            "name": "Hangar"
+        },
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "KSP-AVC"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/GroundConstruction/Patches",
+            "install_to": "GameData/GroundConstruction"
+        },
+        {
+            "file": "GameData/GroundConstruction/Parts",
+            "install_to": "GameData/GroundConstruction",
+            "filter": [
+                "DIYKit"
+            ]
+        }
+    ],
+    "download": "https://github.com/willwill2will54/GroundConstruction/releases/download/2.4.2/GroundConstruction-2.4.2.0.zip",
+    "download_size": 16032467,
+    "download_hash": {
+        "sha1": "E7B0E7AAF5AABACA1695687B7AE89F3AEFBA6382",
+        "sha256": "E87B8D2915A01F7D05BC8B52DF0A382C56FC93F964D7F7C6BFF42052BBB5519A"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
