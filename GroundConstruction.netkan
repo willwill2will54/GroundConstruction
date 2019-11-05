@@ -2,7 +2,7 @@
     "spec_version" : "v1.4",
     "identifier"   : "GroundConstruction",
     "name"         : "Global Construction",
-    "$kref"        : "#/ckan/spacedock/1123",
+    "$kref"        : "#/ckan/github/willwill2will54/GroundConstruction",
     "$vref"        : "#/ckan/ksp-avc/GroundConstruction.version",
     "abstract"     : "Build vessels directly on other planets and in orbit using light-weight kits of high-tech components, with energy and raw materials produced on-site from Ore.",
     "author"       : [ "allista" ],
